@@ -51,5 +51,10 @@ public class Main {
 // Verified UC8 logic
 =======
 // Implementation for UC8
+<<<<<<< HEAD
 >>>>>>> feature/UC8
 // Verified UC9 logic
+=======
+// Implementation for UC9
+>>>>>>> feature/UC9
+// Verified UC10 logic
