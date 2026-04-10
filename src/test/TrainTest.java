@@ -1,6 +1,13 @@
 import org.junit.jupiter.api.Test;
 
+<<<<<<< HEAD
 import java.util.*;
+=======
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+>>>>>>> feature/UC9
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,7 +18,10 @@ class TrainTest {
         List<Bogie> bogies = List.of(
                 new Bogie("Sleeper", 72),
                 new Bogie("Cargo", 120),
+<<<<<<< HEAD
                 new Bogie("AC", 56),
+=======
+>>>>>>> feature/UC9
                 new Bogie("AC", 56)
         );
 
@@ -117,6 +127,7 @@ class TrainTest {
         );
     }
 
+<<<<<<< HEAD
     private List<Bogie> filterWithLoop(List<Bogie> bogies, int threshold) {
         List<Bogie> filtered = new ArrayList<>();
         for (Bogie bogie : bogies) {
@@ -127,6 +138,8 @@ class TrainTest {
         return filtered;
     }
 
+=======
+>>>>>>> feature/UC9
     @Test
     void testGrouping_BogiesGroupedByType() {
         Map<String, List<Bogie>> grouped =
@@ -205,6 +218,7 @@ class TrainTest {
         assertEquals(originalSize, bogies.size());
         assertEquals(4, bogies.size());
     }
+<<<<<<< HEAD
 
 
 
@@ -776,4 +790,6 @@ class TrainTest {
 
         assertTrue(result);
     }
+=======
+>>>>>>> feature/UC9
 }
