@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -185,16 +186,28 @@ import java.util.List;
 
 public class Train {
 >>>>>>> feature/UC1
+=======
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class Train {
+>>>>>>> feature/UC3
     public static void main(String[] args) {
         System.out.println("========================================================");
         System.out.println("       === Train Consist Management App === ");
         System.out.println("========================================================\n");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         List<String> trainConsist = new LinkedList<>();
 =======
         List<String> trainConsist = new ArrayList<>();
 >>>>>>> feature/UC1
+=======
+        List<String> trainConsist = new ArrayList<>();
+>>>>>>> feature/UC3
 
         System.out.println("Train initialized successfully...");
         System.out.println("Inital Bogie Count: " + trainConsist.size());
@@ -203,6 +216,10 @@ public class Train {
         System.out.println("\nSystem ready for operations...");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/UC3
         System.out.println("===========================");
         System.out.println("Add Passenger Bogies to Train (UC2)");
         System.out.println("===========================");
@@ -233,6 +250,7 @@ public class Train {
         System.out.println("Track Unique Bogie IDs (UC3)");
         System.out.println("===========================\n");
 
+<<<<<<< HEAD
         Set<String> bogieIds = new HashSet<>();
         bogieIds.add("BG101");
         bogieIds.add("BG102");
@@ -245,11 +263,26 @@ public class Train {
 
         System.out.println("Bogie IDs After Insertion: ");
         System.out.println(bogieIds);
+=======
+        Set<String> bogies = new HashSet<>();
+        bogies.add("BG101");
+        bogies.add("BG102");
+        bogies.add("BG103");
+        bogies.add("BG104");
+        //duplicating the entries
+        bogies.add("BG101");
+        bogies.add("BG102");
+
+
+        System.out.println("Bogie IDs After Insertion: ");
+        System.out.println(bogies);
+>>>>>>> feature/UC3
 
         System.out.println("\nNote:\nDuplicates are automatically ignored by the HashSet.\n");
 
         System.out.println("Uniqueness validation completed... (UC3)");
 
+<<<<<<< HEAD
         System.out.println("\n\n=======================================");
         System.out.println("  Maintain Ordered Bogie Consist (UC4)");
         System.out.println("========================================\n");
@@ -588,5 +621,8 @@ public class Train {
 
 =======
 >>>>>>> feature/UC1
+=======
+
+>>>>>>> feature/UC3
     }
 }
