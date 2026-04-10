@@ -1,10 +1,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+=======
+import java.util.*;
+import java.util.zip.CheckedOutputStream;
+>>>>>>> feature/UC7
 
 class Bogie{
     String name;
@@ -17,6 +22,7 @@ class Bogie{
 }
 
 public class Train {
+<<<<<<< HEAD
 
     static class InvalidCapacityException extends Exception {
         InvalidCapacityException(String message) {
@@ -200,11 +206,14 @@ import java.util.*;
 
 public class Train {
 >>>>>>> feature/UC5
+=======
+>>>>>>> feature/UC7
     public static void main(String[] args) {
         System.out.println("========================================================");
         System.out.println("       === Train Consist Management App === ");
         System.out.println("========================================================\n");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -218,6 +227,9 @@ public class Train {
 =======
         List<String> trainConsist = new LinkedList<>();
 >>>>>>> feature/UC5
+=======
+        List<String> trainConsist = new LinkedList<>();
+>>>>>>> feature/UC7
 
         System.out.println("Train initialized successfully...");
         System.out.println("Inital Bogie Count: " + trainConsist.size());
@@ -228,11 +240,14 @@ public class Train {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> feature/UC3
 =======
 >>>>>>> feature/UC5
+=======
+>>>>>>> feature/UC7
         System.out.println("===========================");
         System.out.println("Add Passenger Bogies to Train (UC2)");
         System.out.println("===========================");
@@ -265,6 +280,9 @@ public class Train {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature/UC7
         Set<String> bogieIds = new HashSet<>();
         bogieIds.add("BG101");
         bogieIds.add("BG102");
@@ -277,6 +295,7 @@ public class Train {
 
         System.out.println("Bogie IDs After Insertion: ");
         System.out.println(bogieIds);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> feature/UC5
@@ -296,6 +315,8 @@ public class Train {
 >>>>>>> feature/UC3
 =======
 >>>>>>> feature/UC5
+=======
+>>>>>>> feature/UC7
 
         System.out.println("\nNote:\nDuplicates are automatically ignored by the HashSet.\n");
 
@@ -303,8 +324,11 @@ public class Train {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> feature/UC5
+=======
+>>>>>>> feature/UC7
         System.out.println("\n\n=======================================");
         System.out.println("  Maintain Ordered Bogie Consist (UC4)");
         System.out.println("========================================\n");
@@ -323,6 +347,7 @@ public class Train {
         System.out.println(trainConsist);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         //    trainConsist.removeFirst();
         //    trainConsist.removeLast();
 
@@ -332,6 +357,10 @@ public class Train {
         trainConsist.removeFirst();
         trainConsist.removeLast();
 >>>>>>> feature/UC5
+=======
+        trainConsist.removeFirst();
+        trainConsist.removeLast();
+>>>>>>> feature/UC7
         System.out.println("\nAfter removing First and Last Bogie: ");
         System.out.println(trainConsist);
 
@@ -357,6 +386,9 @@ public class Train {
         System.out.println("Formation setup completed... (UC5)");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature/UC7
         /* -------------------UC6_Deprecated------------------
         System.out.println("\n\n========================================");
         System.out.println("  Map Bogie to Capacity (HashMap) (UC6)");
@@ -383,8 +415,11 @@ public class Train {
         bogies.add(new Bogie("Cargo", 120));
         bogies.add(new Bogie("Sleeper", 72));
         bogies.add(new Bogie("AC Chair", 56));
+<<<<<<< HEAD
         bogies.add(new Bogie("AC Chair", 60));
         bogies.add(new Bogie("Sleeper", 70));
+=======
+>>>>>>> feature/UC7
 
         System.out.println("Before sorting");
         for (Bogie b : bogies) {
@@ -399,6 +434,7 @@ public class Train {
 
         System.out.println("Sorting completed... (UC7)");
 
+<<<<<<< HEAD
         System.out.println("\n\n========================================");
         System.out.println("  Filter Passenger Bogies Using Streams (UC8)");
         System.out.println("========================================\n");
@@ -655,5 +691,7 @@ public class Train {
 =======
 
 >>>>>>> feature/UC5
+=======
+>>>>>>> feature/UC7
     }
 }
