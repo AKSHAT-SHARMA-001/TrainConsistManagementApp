@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -178,12 +179,22 @@ public class Train {
         return false;
     }
 
+=======
+import java.util.ArrayList;
+import java.util.List;
+
+public class Train {
+>>>>>>> feature/UC1
     public static void main(String[] args) {
         System.out.println("========================================================");
         System.out.println("       === Train Consist Management App === ");
         System.out.println("========================================================\n");
 
+<<<<<<< HEAD
         List<String> trainConsist = new LinkedList<>();
+=======
+        List<String> trainConsist = new ArrayList<>();
+>>>>>>> feature/UC1
 
         System.out.println("Train initialized successfully...");
         System.out.println("Inital Bogie Count: " + trainConsist.size());
@@ -191,6 +202,7 @@ public class Train {
 
         System.out.println("\nSystem ready for operations...");
 
+<<<<<<< HEAD
         System.out.println("===========================");
         System.out.println("Add Passenger Bogies to Train (UC2)");
         System.out.println("===========================");
@@ -574,5 +586,7 @@ public class Train {
 
 
 
+=======
+>>>>>>> feature/UC1
     }
 }
