@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -194,11 +195,17 @@ import java.util.Set;
 
 public class Train {
 >>>>>>> feature/UC3
+=======
+import java.util.*;
+
+public class Train {
+>>>>>>> feature/UC5
     public static void main(String[] args) {
         System.out.println("========================================================");
         System.out.println("       === Train Consist Management App === ");
         System.out.println("========================================================\n");
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         List<String> trainConsist = new LinkedList<>();
@@ -208,6 +215,9 @@ public class Train {
 =======
         List<String> trainConsist = new ArrayList<>();
 >>>>>>> feature/UC3
+=======
+        List<String> trainConsist = new LinkedList<>();
+>>>>>>> feature/UC5
 
         System.out.println("Train initialized successfully...");
         System.out.println("Inital Bogie Count: " + trainConsist.size());
@@ -217,9 +227,12 @@ public class Train {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> feature/UC3
+=======
+>>>>>>> feature/UC5
         System.out.println("===========================");
         System.out.println("Add Passenger Bogies to Train (UC2)");
         System.out.println("===========================");
@@ -251,6 +264,7 @@ public class Train {
         System.out.println("===========================\n");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         Set<String> bogieIds = new HashSet<>();
         bogieIds.add("BG101");
         bogieIds.add("BG102");
@@ -264,6 +278,8 @@ public class Train {
         System.out.println("Bogie IDs After Insertion: ");
         System.out.println(bogieIds);
 =======
+=======
+>>>>>>> feature/UC5
         Set<String> bogies = new HashSet<>();
         bogies.add("BG101");
         bogies.add("BG102");
@@ -276,13 +292,19 @@ public class Train {
 
         System.out.println("Bogie IDs After Insertion: ");
         System.out.println(bogies);
+<<<<<<< HEAD
 >>>>>>> feature/UC3
+=======
+>>>>>>> feature/UC5
 
         System.out.println("\nNote:\nDuplicates are automatically ignored by the HashSet.\n");
 
         System.out.println("Uniqueness validation completed... (UC3)");
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature/UC5
         System.out.println("\n\n=======================================");
         System.out.println("  Maintain Ordered Bogie Consist (UC4)");
         System.out.println("========================================\n");
@@ -300,11 +322,16 @@ public class Train {
         System.out.println("\nAfter Inserting 'Pantry Car' at position 2: ");
         System.out.println(trainConsist);
 
+<<<<<<< HEAD
         //    trainConsist.removeFirst();
         //    trainConsist.removeLast();
 
         trainConsist.remove(0); trainConsist.remove(trainConsist.size() - 1);
 
+=======
+        trainConsist.removeFirst();
+        trainConsist.removeLast();
+>>>>>>> feature/UC5
         System.out.println("\nAfter removing First and Last Bogie: ");
         System.out.println(trainConsist);
 
@@ -329,6 +356,7 @@ public class Train {
         System.out.println("\nNote:\nLinkedHashSet preserves the insertion order and removes duplicates automatically.\n");
         System.out.println("Formation setup completed... (UC5)");
 
+<<<<<<< HEAD
         /* -------------------UC6_Deprecated------------------
         System.out.println("\n\n========================================");
         System.out.println("  Map Bogie to Capacity (HashMap) (UC6)");
@@ -624,5 +652,8 @@ public class Train {
 =======
 
 >>>>>>> feature/UC3
+=======
+
+>>>>>>> feature/UC5
     }
 }
