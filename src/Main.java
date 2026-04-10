@@ -29,3 +29,4 @@ public class Main {
 // Implementation for UC15
 // Implementation for UC16
 // Implementation for UC17
+// Implementation for UC18
