@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.util.*;
 =======
 import java.util.ArrayList;
@@ -8,6 +9,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 >>>>>>> feature/UC9
+=======
+import java.util.*;
+>>>>>>> feature/UC11
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,9 +23,12 @@ class TrainTest {
                 new Bogie("Sleeper", 72),
                 new Bogie("Cargo", 120),
 <<<<<<< HEAD
+<<<<<<< HEAD
                 new Bogie("AC", 56),
 =======
 >>>>>>> feature/UC9
+=======
+>>>>>>> feature/UC11
                 new Bogie("AC", 56)
         );
 
@@ -128,6 +135,7 @@ class TrainTest {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private List<Bogie> filterWithLoop(List<Bogie> bogies, int threshold) {
         List<Bogie> filtered = new ArrayList<>();
         for (Bogie bogie : bogies) {
@@ -140,6 +148,8 @@ class TrainTest {
 
 =======
 >>>>>>> feature/UC9
+=======
+>>>>>>> feature/UC11
     @Test
     void testGrouping_BogiesGroupedByType() {
         Map<String, List<Bogie>> grouped =
@@ -219,6 +229,9 @@ class TrainTest {
         assertEquals(4, bogies.size());
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feature/UC11
 
 
 
@@ -342,6 +355,7 @@ class TrainTest {
         assertFalse(Train.isValidCargoCode("PET-AB123"));
     }
 
+<<<<<<< HEAD
     //UC12: safety compliance validation
     @Test
     void testSafety_AllBogiesValid() {
@@ -792,4 +806,6 @@ class TrainTest {
     }
 =======
 >>>>>>> feature/UC9
+=======
+>>>>>>> feature/UC11
 }
