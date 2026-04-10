@@ -31,5 +31,10 @@ public class Main {
 // Verified UC4 logic
 =======
 // Implementation for UC4
+<<<<<<< HEAD
 >>>>>>> feature/UC4
 // Verified UC5 logic
+=======
+// Implementation for UC5
+>>>>>>> feature/UC5
+// Verified UC6 logic
