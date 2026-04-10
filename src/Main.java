@@ -21,3 +21,4 @@ public class Main {
 // Implementation for UC7
 // Implementation for UC8
 // Implementation for UC9
+// Implementation for UC10
