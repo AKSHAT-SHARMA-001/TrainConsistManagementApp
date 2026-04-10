@@ -16,5 +16,10 @@ public class Main {
 }// Verified UC1 logic
 =======
 }// Implementation for UC1
+<<<<<<< HEAD
 >>>>>>> feature/UC1
 // Verified UC2 logic
+=======
+// Implementation for UC2
+>>>>>>> feature/UC2
+// Verified UC3 logic
