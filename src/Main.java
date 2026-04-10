@@ -76,5 +76,10 @@ public class Main {
 // Verified UC13 logic
 =======
 // Implementation for UC13
+<<<<<<< HEAD
 >>>>>>> feature/UC13
 // Verified UC14 logic
+=======
+// Implementation for UC14
+>>>>>>> feature/UC14
+// Verified UC15 logic
