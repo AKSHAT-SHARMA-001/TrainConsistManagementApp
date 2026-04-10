@@ -12,4 +12,9 @@ public class Main {
             System.out.println("i = " + i);
         }
     }
+<<<<<<< HEAD
 }// Verified UC1 logic
+=======
+}// Implementation for UC1
+>>>>>>> feature/UC1
+// Verified UC2 logic
