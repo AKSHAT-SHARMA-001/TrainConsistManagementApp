@@ -13,3 +13,4 @@ public class Main {
         }
     }
 }// Implementation for UC1
+// Implementation for UC2
